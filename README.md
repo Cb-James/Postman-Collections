@@ -3,4 +3,4 @@ Predefined API endpoints for use with Postman REST API Client
 
 These collections might be useful to others for testing purposes.
 
-Define `{{access_token}}`, `{{wallet_main}}`, and any other frequently used variables in a Postman [environment](https://www.getpostman.com/docs/environments)
+The variables `{{access_token}}`, `{{wallet_main}}`, and a few others will need to be defined in a Postman [environment](https://www.getpostman.com/docs/environments).
