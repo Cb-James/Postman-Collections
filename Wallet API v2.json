@@ -59,6 +59,21 @@
 			"owner": "38528"
 		},
 		{
+			"id": "9c38a281-4468-0165-4a38-3472c967c2af",
+			"name": "Data",
+			"description": "",
+			"write": true,
+			"order": [
+				"af230015-f735-b6cb-513c-8212e615bece",
+				"dfde0cf4-866f-2142-7b58-18f61fa330e8"
+			],
+			"collection_name": "Wallet v2",
+			"collection_owner": "38528",
+			"collection_id": "8fcc96de-aef3-c7eb-591b-e29a92af1f89",
+			"collection": "8fcc96de-aef3-c7eb-591b-e29a92af1f89",
+			"owner": "38528"
+		},
+		{
 			"id": "988505b6-622a-ab9e-0ce5-579d970286f6",
 			"name": "Merchant - Checkouts",
 			"description": "The Checkout resource is used with Coinbase’s merchant tools (payment pages, iframes etc).",
@@ -186,7 +201,7 @@
 	"owner": "38528",
 	"sharedWithTeam": false,
 	"subscribed": false,
-	"remoteLink": "",
+	"remoteLink": "https://www.getpostman.com/collections/4d97abc54c00c9361443",
 	"public": false,
 	"write": true,
 	"requests": [
@@ -471,7 +486,7 @@
 			"tests": "",
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1431565065924,
+			"time": 1434567505911,
 			"name": "/accounts",
 			"description": "Lists current user’s accounts",
 			"collectionId": "8fcc96de-aef3-c7eb-591b-e29a92af1f89",
@@ -818,6 +833,28 @@
 			"rawModeData": "{\n  \"currency\": \"BTC\",\n  \"mispayment\": \"6c3cc817-b10b-5b42-8261-6298a5b5cea8\"\n}"
 		},
 		{
+			"id": "af230015-f735-b6cb-513c-8212e615bece",
+			"headers": "CB-Version: {{date}}\n",
+			"url": "{{url}}/exchange-rates/?access_token={{token}}&order=asc",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"collectionId": "8fcc96de-aef3-c7eb-591b-e29a92af1f89",
+			"data": [],
+			"dataMode": "params",
+			"name": "/exchange-rates",
+			"description": "Get current exchange rates. Default base currency is USD but it can be defined as any supported currency.",
+			"descriptionFormat": "html",
+			"time": 1434567548402,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "9c38a281-4468-0165-4a38-3472c967c2af",
+			"synced": false
+		},
+		{
 			"id": "b309a236-a875-8ce6-9d2c-b7abd8b75b29",
 			"headers": "CB-Version: {{date}}\nContent-Type: application/json\n",
 			"url": "{{url}}/orders/{{order_id}}/refund/?access_token={{token}}",
@@ -986,6 +1023,28 @@
 			"responses": [],
 			"synced": false,
 			"rawModeData": "{\n  \"amount\": \"0.001\",\n  \"currency\": \"BTC\",\n  \"payment_method\": \"83562370-3e5c-51db-87da-752af5ab9559\"\n}"
+		},
+		{
+			"id": "dfde0cf4-866f-2142-7b58-18f61fa330e8",
+			"headers": "CB-Version: {{date}}\n",
+			"url": "{{url}}/currencies/?access_token={{token}}&order=asc",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"collectionId": "8fcc96de-aef3-c7eb-591b-e29a92af1f89",
+			"data": [],
+			"dataMode": "params",
+			"name": "/currencies",
+			"description": "List known currencies. Currency codes will conform to the ISO 4217 standard where possible. ",
+			"descriptionFormat": "html",
+			"time": 1434567600790,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "9c38a281-4468-0165-4a38-3472c967c2af",
+			"synced": false
 		},
 		{
 			"id": "e4ba442c-91d5-fa47-1ca0-519b7a7a12df",
