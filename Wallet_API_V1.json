@@ -13,10 +13,10 @@
 				"98b7e014-ea9b-6e3f-d99d-8dca64aae40e"
 			],
 			"collection_name": "Wallet API V1",
-			"collection_owner": "47477",
+			"collection_owner": "38528",
 			"collection_id": "d18e002d-9afd-c6c2-9dff-d440def79286",
 			"collection": "d18e002d-9afd-c6c2-9dff-d440def79286",
-			"owner": "47477"
+			"owner": "38528"
 		},
 		{
 			"id": "81020bb9-c2fc-b381-9d12-9b1e061ae5d9",
@@ -27,10 +27,10 @@
 				"b9143655-c971-8380-b86b-a427657e3d4d"
 			],
 			"collection_name": "Wallet API V1",
-			"collection_owner": "47477",
+			"collection_owner": "38528",
 			"collection_id": "d18e002d-9afd-c6c2-9dff-d440def79286",
 			"collection": "d18e002d-9afd-c6c2-9dff-d440def79286",
-			"owner": "47477"
+			"owner": "38528"
 		},
 		{
 			"id": "fb6069c1-7c16-728c-a24b-5dbd21dcce52",
@@ -42,8 +42,9 @@
 				"1221f8a3-6d06-c0fb-abd8-1be75689ac8b"
 			],
 			"collection_name": "Wallet API V1",
-			"collection_owner": "47477",
-			"collection_id": "d18e002d-9afd-c6c2-9dff-d440def79286"
+			"collection_owner": "38528",
+			"collection_id": "d18e002d-9afd-c6c2-9dff-d440def79286",
+			"owner": "38528"
 		},
 		{
 			"id": "d6ebc349-1a7e-0bde-d4ae-fa079384bf81",
@@ -55,10 +56,25 @@
 				"a30b3b5f-a9ad-46ab-4e28-98a1b0aea8c1"
 			],
 			"collection_name": "Wallet API V1",
-			"collection_owner": "47477",
+			"collection_owner": "38528",
 			"collection_id": "d18e002d-9afd-c6c2-9dff-d440def79286",
 			"collection": "d18e002d-9afd-c6c2-9dff-d440def79286",
-			"owner": "47477"
+			"owner": "38528"
+		},
+		{
+			"id": "453b118c-e534-b92b-9188-eb61d1b76763",
+			"name": "Recurring Payments",
+			"description": "",
+			"write": true,
+			"order": [
+				"ffd28af6-4015-6d41-c98f-d38018732d9a",
+				"10d02789-777e-d704-9c97-ce0928f2fcab"
+			],
+			"collection_name": "Wallet API V1",
+			"collection_owner": "38528",
+			"collection_id": "d18e002d-9afd-c6c2-9dff-d440def79286",
+			"collection": "d18e002d-9afd-c6c2-9dff-d440def79286",
+			"owner": "38528"
 		},
 		{
 			"id": "ffcd26c4-8698-6ffa-9e73-a638e7a7617c",
@@ -69,10 +85,10 @@
 				"0b03a81c-e70f-90b1-d19f-b4205f6b7388"
 			],
 			"collection_name": "Wallet API V1",
-			"collection_owner": "47477",
+			"collection_owner": "38528",
 			"collection_id": "d18e002d-9afd-c6c2-9dff-d440def79286",
 			"collection": "d18e002d-9afd-c6c2-9dff-d440def79286",
-			"owner": "47477"
+			"owner": "38528"
 		},
 		{
 			"id": "5138475c-e7e0-f5e1-6c78-af35e49d59a9",
@@ -84,10 +100,10 @@
 				"82ea445f-7ed6-16c3-3caf-f375aaf7431c"
 			],
 			"collection_name": "Wallet API V1",
-			"collection_owner": "47477",
+			"collection_owner": "38528",
 			"collection_id": "d18e002d-9afd-c6c2-9dff-d440def79286",
 			"collection": "d18e002d-9afd-c6c2-9dff-d440def79286",
-			"owner": "47477",
+			"owner": "38528",
 			"collectionId": "d18e002d-9afd-c6c2-9dff-d440def79286"
 		},
 		{
@@ -99,10 +115,10 @@
 				"37abbc7f-c7e2-e2f7-471f-47c33b5b76d8"
 			],
 			"collection_name": "Wallet API V1",
-			"collection_owner": "47477",
+			"collection_owner": "38528",
 			"collection_id": "d18e002d-9afd-c6c2-9dff-d440def79286",
 			"collection": "d18e002d-9afd-c6c2-9dff-d440def79286",
-			"owner": "47477",
+			"owner": "38528",
 			"collectionId": "d18e002d-9afd-c6c2-9dff-d440def79286"
 		},
 		{
@@ -114,15 +130,15 @@
 				"ec866b8f-9284-2a4f-f041-0d91bc6721fd"
 			],
 			"collection_name": "Wallet API V1",
-			"collection_owner": "47477",
+			"collection_owner": "38528",
 			"collection_id": "d18e002d-9afd-c6c2-9dff-d440def79286",
 			"collection": "d18e002d-9afd-c6c2-9dff-d440def79286",
-			"owner": "47477"
+			"owner": "38528"
 		}
 	],
 	"timestamp": 1432558931263,
 	"synced": false,
-	"owner": "47477",
+	"owner": "38528",
 	"sharedWithTeam": false,
 	"subscribed": false,
 	"remoteLink": "",
@@ -149,28 +165,47 @@
 			"currentHelper": "normal",
 			"helperAttributes": {},
 			"folder": "ffcd26c4-8698-6ffa-9e73-a638e7a7617c",
+			"synced": false,
+			"owner": "38528"
+		},
+		{
+			"id": "10d02789-777e-d704-9c97-ce0928f2fcab",
+			"headers": "",
+			"url": "{{url}}/recurring_payments/{{payment_id}}/?access_token={{token}}",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1434754049087,
+			"name": "Show a payment",
+			"description": "Lets you show an individual recurring payment.",
+			"collectionId": "d18e002d-9afd-c6c2-9dff-d440def79286",
+			"responses": [],
 			"synced": false
 		},
 		{
 			"id": "1221f8a3-6d06-c0fb-abd8-1be75689ac8b",
-			"headers": "Authorization: Basic S25SMkNaelNtSXJMUUZRdDpJdnQzTE5ZeGNtNVZ6Y1U4NmhmcDhBOWNjQ290azRPNw==\n",
+			"headers": "",
 			"url": "{{url}}/orders/ORDERIDHERE?access_token={{token}}&account_id={{account:api_testing}}",
-			"pathVariables": {},
 			"preRequestScript": "",
+			"pathVariables": {},
 			"method": "GET",
-			"collectionId": "d18e002d-9afd-c6c2-9dff-d440def79286",
 			"data": [],
 			"dataMode": "params",
-			"name": "Show an order",
-			"description": "",
-			"descriptionFormat": "html",
-			"time": 1433970530916,
 			"version": 2,
-			"responses": [],
 			"tests": "",
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"folder": "fb6069c1-7c16-728c-a24b-5dbd21dcce52",
+			"time": 1434754013552,
+			"name": "Show an order",
+			"description": "",
+			"collectionId": "d18e002d-9afd-c6c2-9dff-d440def79286",
+			"responses": [],
 			"synced": false
 		},
 		{
@@ -192,7 +227,9 @@
 			"collectionId": "d18e002d-9afd-c6c2-9dff-d440def79286",
 			"responses": [],
 			"synced": false,
-			"rawModeData": "{\n  \"transaction\": {\n    \"to\": '{{testAddress}}',\n    \"amount\": '0.001',\n    \"notes\": \"test\"\n  }\n}"
+			"rawModeData": "{\n  \"transaction\": {\n    \"to\": '{{testAddress}}',\n    \"amount\": '0.001',\n    \"notes\": \"test\"\n  }\n}",
+			"owner": "38528",
+			"folder": "a2564566-e27d-92cd-6065-31c974e3593c"
 		},
 		{
 			"id": "3fd47320-494f-399e-0a0f-7c4c336cc29a",
@@ -213,7 +250,9 @@
 			"collectionId": "d18e002d-9afd-c6c2-9dff-d440def79286",
 			"responses": [],
 			"synced": false,
-			"rawModeData": "{\n  \"transaction\": {\n    \"to\": \"user1@example.com\",\n    \"amount\": \"1.234\",\n    \"notes\": \"Sample transaction for you\"\n  }\n}"
+			"rawModeData": "{\n  \"transaction\": {\n    \"to\": \"user1@example.com\",\n    \"amount\": \"1.234\",\n    \"notes\": \"Sample transaction for you\"\n  }\n}",
+			"owner": "38528",
+			"folder": "5138475c-e7e0-f5e1-6c78-af35e49d59a9"
 		},
 		{
 			"id": "4f2ff114-2460-2393-852c-4ab1a2b1629a",
@@ -235,7 +274,8 @@
 			"currentHelper": "normal",
 			"helperAttributes": {},
 			"folder": "d6ebc349-1a7e-0bde-d4ae-fa079384bf81",
-			"synced": false
+			"synced": false,
+			"owner": "38528"
 		},
 		{
 			"id": "82ea445f-7ed6-16c3-3caf-f375aaf7431c",
@@ -262,7 +302,9 @@
 			"description": "Redeem a token, claiming its address and all its bitcoin\n",
 			"collectionId": "d18e002d-9afd-c6c2-9dff-d440def79286",
 			"responses": [],
-			"synced": false
+			"synced": false,
+			"owner": "38528",
+			"folder": "5138475c-e7e0-f5e1-6c78-af35e49d59a9"
 		},
 		{
 			"id": "98b7e014-ea9b-6e3f-d99d-8dca64aae40e",
@@ -284,7 +326,9 @@
 			"description": "",
 			"collectionId": "d18e002d-9afd-c6c2-9dff-d440def79286",
 			"responses": [],
-			"synced": false
+			"synced": false,
+			"owner": "38528",
+			"folder": "57153980-ccf5-1f17-de45-6833f510c98a"
 		},
 		{
 			"id": "a30b3b5f-a9ad-46ab-4e28-98a1b0aea8c1",
@@ -306,7 +350,8 @@
 			"currentHelper": "normal",
 			"helperAttributes": {},
 			"folder": "d6ebc349-1a7e-0bde-d4ae-fa079384bf81",
-			"synced": false
+			"synced": false,
+			"owner": "38528"
 		},
 		{
 			"id": "b9143655-c971-8380-b86b-a427657e3d4d",
@@ -327,7 +372,9 @@
 			"collectionId": "d18e002d-9afd-c6c2-9dff-d440def79286",
 			"responses": [],
 			"synced": false,
-			"rawModeData": "{\n  \"button\": {\n    \"name\": \"test\",\n    \"type\": \"buy_now\",\n    \"subscription\": false,\n    \"price_string\": \"1.23\",\n    \"price_currency_iso\": \"USD\",\n    \"custom\": \"Order123\",\n    \"callback_url\": \"http://www.example.com/my_custom_button_callback\",\n    \"description\": \"Sample description\",\n    \"style\": \"custom_large\",\n    \"include_email\": true\n  }\n}"
+			"rawModeData": "{\n  \"button\": {\n    \"name\": \"test\",\n    \"type\": \"buy_now\",\n    \"subscription\": false,\n    \"price_string\": \"1.23\",\n    \"price_currency_iso\": \"USD\",\n    \"custom\": \"Order123\",\n    \"callback_url\": \"http://www.example.com/my_custom_button_callback\",\n    \"description\": \"Sample description\",\n    \"style\": \"custom_large\",\n    \"include_email\": true\n  }\n}",
+			"owner": "38528",
+			"folder": "81020bb9-c2fc-b381-9d12-9b1e061ae5d9"
 		},
 		{
 			"id": "b9b6cdcc-68bf-74b0-6071-76a806b853b5",
@@ -349,7 +396,8 @@
 			"currentHelper": "normal",
 			"helperAttributes": {},
 			"folder": "fb6069c1-7c16-728c-a24b-5dbd21dcce52",
-			"synced": false
+			"synced": false,
+			"owner": "38528"
 		},
 		{
 			"id": "ec866b8f-9284-2a4f-f041-0d91bc6721fd",
@@ -369,6 +417,30 @@
 			"description": "",
 			"collectionId": "d18e002d-9afd-c6c2-9dff-d440def79286",
 			"responses": [],
+			"synced": false,
+			"owner": "38528",
+			"folder": "ce641276-6b7c-1c5c-751a-74f97935b2f4"
+		},
+		{
+			"id": "ffd28af6-4015-6d41-c98f-d38018732d9a",
+			"headers": "",
+			"url": "{{url}}/recurring_payments/?access_token={{token}}",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"collectionId": "d18e002d-9afd-c6c2-9dff-d440def79286",
+			"data": [],
+			"dataMode": "params",
+			"name": "List payments",
+			"description": "List all recurring payments",
+			"descriptionFormat": "html",
+			"time": 1434754153996,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "453b118c-e534-b92b-9188-eb61d1b76763",
 			"synced": false
 		}
 	]
