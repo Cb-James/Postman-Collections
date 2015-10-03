@@ -158,7 +158,7 @@
 		{
 			"id": "333a0e11-bf66-25b2-1324-1bd7c5a658fc",
 			"headers": "",
-			"url": "{{url}}/orders?access_token={{token}}&account_id={{account_id}}",
+			"url": "{{url}}/v1/v2/orders?access_token={{token}}&account_id={{account_id}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -178,7 +178,7 @@
 		{
 			"id": "3a03df62-d811-bac2-86cd-2d7738388492",
 			"headers": "",
-			"url": "{{url}}/accounts/?access_token={{token}}",
+			"url": "{{url}}/v1/v2/accounts/?access_token={{token}}",
 			"pathVariables": {},
 			"preRequestScript": "",
 			"method": "GET",
@@ -199,7 +199,7 @@
 		{
 			"id": "585ee110-2d2f-821d-e2e4-f9c3e235f57c",
 			"headers": "",
-			"url": "{{url}}/recurring_payments/{{payment_id}}/?access_token={{token}}",
+			"url": "{{url}}/v1/v2/recurring_payments/{{payment_id}}/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -219,7 +219,7 @@
 		{
 			"id": "5aa8fcab-6c6a-d70f-a045-f6d01977bf09",
 			"headers": "",
-			"url": "{{url}}/buttons/?access_token={{token}}",
+			"url": "{{url}}/v1/buttons/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "POST",
@@ -240,7 +240,7 @@
 		{
 			"id": "61d7d532-6266-667b-c5ec-af998031ab5d",
 			"headers": "",
-			"url": "{{url}}/users/self?access_token={{token}}",
+			"url": "{{url}}/v1/users/self?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -267,7 +267,7 @@
 		{
 			"id": "92df4a60-5da8-42a6-2118-daa6606ebf6b",
 			"headers": "",
-			"url": "{{url}}/recurring_payments/?access_token={{token}}",
+			"url": "{{url}}/v1/recurring_payments/?access_token={{token}}",
 			"pathVariables": {},
 			"preRequestScript": "",
 			"method": "GET",
@@ -288,7 +288,7 @@
 		{
 			"id": "960d1504-4900-63c8-a405-f399aeddd3fa",
 			"headers": "",
-			"url": "{{url}}/addresses/:id_or_address?access_token={{token}}",
+			"url": "{{url}}/v1/addresses/:id_or_address?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {
 				"id_or_address": ""
@@ -310,7 +310,7 @@
 		{
 			"id": "9c81ba17-6af0-c652-c0a7-a851adce30d2",
 			"headers": "",
-			"url": "{{url}}/subscribers?access_token={{token}}",
+			"url": "{{url}}/v1/subscribers?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -337,7 +337,7 @@
 		{
 			"id": "a1837bd3-1319-2ccf-e033-543d1de44725",
 			"headers": "",
-			"url": "{{url}}/prices/sell",
+			"url": "{{url}}/v1/prices/sell",
 			"pathVariables": {},
 			"preRequestScript": "",
 			"method": "GET",
@@ -358,7 +358,7 @@
 		{
 			"id": "a1878c53-2a1a-59c7-0917-4a95cc869a18",
 			"headers": "",
-			"url": "{{url}}/prices/buy",
+			"url": "{{url}}/v1/prices/buy",
 			"pathVariables": {},
 			"preRequestScript": "",
 			"method": "GET",
@@ -379,7 +379,7 @@
 		{
 			"id": "b2a085d4-aa3c-b299-c293-fe4c422f9028",
 			"headers": "",
-			"url": "{{url}}/transactions/send_money?access_token={{token}}",
+			"url": "{{url}}/v1/transactions/send_money?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "POST",
@@ -400,7 +400,7 @@
 		{
 			"id": "b81faae4-f89f-7d55-5cec-97e36f1a02f5",
 			"headers": "",
-			"url": "{{url}}/orders/ORDERIDHERE?access_token={{token}}&account_id={{account:api_testing}}",
+			"url": "{{url}}/v1/orders/ORDERIDHERE?access_token={{token}}&account_id={{account:api_testing}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -420,7 +420,7 @@
 		{
 			"id": "ee2f52ba-a973-582c-1986-b3d6d0f91277",
 			"headers": "",
-			"url": "{{url}}/tokens?access_token={{token}}",
+			"url": "{{url}}/v1/tokens?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "POST",
@@ -441,7 +441,7 @@
 		{
 			"id": "fe9405fc-c052-10e1-fb97-698640cb7642",
 			"headers": "",
-			"url": "{{url}}/tokens/redeem/?access_token={{token}}",
+			"url": "{{url}}/v1/v2/tokens/redeem/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "POST",

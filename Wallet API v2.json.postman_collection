@@ -220,7 +220,7 @@
 		{
 			"id": "00663379-341a-8d55-06db-fafcc22a2f18",
 			"headers": "CB-Version: {{date}}\nContent-Type: application/json\n",
-			"url": "{{url}}/checkouts/?access_token={{token}}",
+			"url": "{{url}}/v2/v2/checkouts/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "POST",
@@ -241,7 +241,7 @@
 		{
 			"id": "01bbed4f-926b-6d43-6d12-e7cb393bf91f",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/checkouts/?access_token={{token}}",
+			"url": "{{url}}/v2/v2/checkouts/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -261,7 +261,7 @@
 		{
 			"id": "06acefdd-80cb-1b37-df11-86ca642aab21",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/accounts/{{wallet_main}}/transactions/{{tx_id}}/?access_token={{token}}",
+			"url": "{{url}}/v2/v2/accounts/{{wallet_main}}/transactions/{{tx_id}}/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -281,7 +281,7 @@
 		{
 			"id": "078f909e-59f8-a059-54fe-2541df50de9f",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/accounts/{{wallet_main}}/buys/{{buy_id}}/?access_token={{token}}",
+			"url": "{{url}}/v2/v2/accounts/{{wallet_main}}/buys/{{buy_id}}/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -301,7 +301,7 @@
 		{
 			"id": "0a1bbb51-a595-178e-2092-f137b897dd3e",
 			"headers": "CB-Version: {{date}}\nContent-Type: application/json\n",
-			"url": "{{url}}/orders/{{order_id}}/refund/?access_token={{token}}",
+			"url": "{{url}}/v2/orders/{{order_id}}/refund/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "POST",
@@ -322,7 +322,7 @@
 		{
 			"id": "10d5800c-51c9-3d98-1dd0-c052176fa09b",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/accounts/{{wallet_main}}/buys/?access_token={{token}}",
+			"url": "{{url}}/v2/accounts/{{wallet_main}}/buys/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -342,7 +342,7 @@
 		{
 			"id": "33c3a293-1b67-1cfc-63d2-5835803c9a0c",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/payment-methods/{{payment_method_id}}/?access_token={{token}}",
+			"url": "{{url}}/v2/payment-methods/{{payment_method_id}}/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -362,7 +362,7 @@
 		{
 			"id": "34a2019c-6783-4cbb-36d4-9c34656d8dcf",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/payment-methods/?access_token={{token}}",
+			"url": "{{url}}/v2/payment-methods/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -382,7 +382,7 @@
 		{
 			"id": "376c9546-5753-60bb-ca60-4fdcb0354abe",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/accounts/{{wallet_main}}/sells/{{sell_id}}/?access_token={{token}}",
+			"url": "{{url}}/v2/accounts/{{wallet_main}}/sells/{{sell_id}}/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -402,7 +402,7 @@
 		{
 			"id": "3f3737da-ad10-cc3d-9fd2-506c4260db60",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/prices/sell/?access_token={{token}}",
+			"url": "{{url}}/v2/prices/sell/?access_token={{token}}",
 			"pathVariables": {},
 			"preRequestScript": "",
 			"method": "GET",
@@ -423,7 +423,7 @@
 		{
 			"id": "40dff09b-d672-932d-c655-9f035bda3f6b",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/user/?access_token={{token}}",
+			"url": "{{url}}/v2/user/?access_token={{token}}",
 			"pathVariables": {},
 			"preRequestScript": "",
 			"method": "GET",
@@ -445,7 +445,7 @@
 		{
 			"id": "410846ca-b8b0-8f19-858d-17f427960d0b",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/orders/?access_token={{token}}",
+			"url": "{{url}}/v2/orders/?access_token={{token}}",
 			"pathVariables": {},
 			"preRequestScript": "",
 			"method": "GET",
@@ -466,7 +466,7 @@
 		{
 			"id": "421eb174-0a08-b042-cb1e-ab61618f3498",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/accounts/{{wallet_main}}/buys/{{buy_id}}/commit/?access_token={{token}}",
+			"url": "{{url}}/v2/accounts/{{wallet_main}}/buys/{{buy_id}}/commit/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "POST",
@@ -486,7 +486,7 @@
 		{
 			"id": "4320a615-2d7d-e767-a4c5-ea4f7546c88a",
 			"headers": "CB-Version: {{date}}\nContent-Type: application/json\n",
-			"url": "{{url}}/accounts/?access_token={{token}}",
+			"url": "{{url}}/v2/accounts/?access_token={{token}}",
 			"pathVariables": {},
 			"preRequestScript": "",
 			"method": "POST",
@@ -508,7 +508,7 @@
 		{
 			"id": "4427013a-75ac-983e-7f03-8f2cafd90ca1",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/checkouts/{{checkouts_id}}/?access_token={{token}}",
+			"url": "{{url}}/v2/checkouts/{{checkouts_id}}/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -528,7 +528,7 @@
 		{
 			"id": "4a9e7b29-3625-83c8-5ed5-21c707992309",
 			"headers": "CB-Version: {{date}}\nContent-Type: application/json\n",
-			"url": "{{url}}/accounts/{{wallet_main}}/addresses/?access_token={{token}}",
+			"url": "{{url}}/v2/accounts/{{wallet_main}}/addresses/?access_token={{token}}",
 			"pathVariables": {},
 			"preRequestScript": "",
 			"method": "POST",
@@ -550,7 +550,7 @@
 		{
 			"id": "4ca65cd1-1ce4-db81-9f60-f7a325e2573d",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/merchants/{{user_id}}/?access_token={{token}}",
+			"url": "{{url}}/v2/merchants/{{user_id}}/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -570,7 +570,7 @@
 		{
 			"id": "55dd6d63-2a29-71b6-abcd-ff5e9da7ae03",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/accounts/{{wallet_main}}/transactions/{tx_id}}/complete/?access_token={{token}}",
+			"url": "{{url}}/v2/accounts/{{wallet_main}}/transactions/{tx_id}}/complete/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "DELETE",
@@ -590,7 +590,7 @@
 		{
 			"id": "5a2d1440-4c4f-6984-83b6-793b5d965bce",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/accounts/{{wallet_main}}/addresses/?access_token={{token}}",
+			"url": "{{url}}/v2/accounts/{{wallet_main}}/addresses/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -610,7 +610,7 @@
 		{
 			"id": "5b8cbb8d-3dc5-9c3f-6e10-d5dc2acf39c8",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/accounts/{{wallet_main}}/transactions/{tx_id}}/complete/?access_token={{token}}",
+			"url": "{{url}}/v2/accounts/{{wallet_main}}/transactions/{tx_id}}/complete/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "POST",
@@ -630,7 +630,7 @@
 		{
 			"id": "5cbaf2e3-890c-6dfa-c320-b601b01c861a",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/checkouts/{{checkout_id}}/orders/?access_token={{token}}",
+			"url": "{{url}}/v2/checkouts/{{checkout_id}}/orders/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -650,7 +650,7 @@
 		{
 			"id": "5fc1282d-abae-63d1-3909-135455c9d7af",
 			"headers": "CB-Version: {{date}}\nContent-Type: application/json\n",
-			"url": "{{url}}/accounts/{{wallet_main}}/transactions/?access_token={{token}}",
+			"url": "{{url}}/v2/accounts/{{wallet_main}}/transactions/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "POST",
@@ -671,7 +671,7 @@
 		{
 			"id": "650626c8-75bb-c305-4a89-b28527a7e4df",
 			"headers": "CB-Version: {{date}}\nContent-Type: application/json\n",
-			"url": "{{url}}/accounts/{{wallet_main}}/buys/?access_token={{token}}",
+			"url": "{{url}}/v2/accounts/{{wallet_main}}/buys/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "POST",
@@ -692,7 +692,7 @@
 		{
 			"id": "6b0c7357-76d5-6d41-d89f-ac608cd8c43c",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/accounts/primary/transactions/?access_token={{token}}",
+			"url": "{{url}}/v2/accounts/primary/transactions/?access_token={{token}}",
 			"pathVariables": {},
 			"preRequestScript": "",
 			"method": "GET",
@@ -713,7 +713,7 @@
 		{
 			"id": "7c3c0fda-8dda-9408-f276-9b6dd98a600e",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/accounts/{{wallet_main}}/addresses/{{address_id}}/?access_token={{token}}",
+			"url": "{{url}}/v2/accounts/{{wallet_main}}/addresses/{{address_id}}/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -733,7 +733,7 @@
 		{
 			"id": "85f596e9-b2f8-e014-f1d4-1ebd25be3419",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/checkouts/{{checkout_id}}/orders/?access_token={{token}}",
+			"url": "{{url}}/v2/checkouts/{{checkout_id}}/orders/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "POST",
@@ -753,7 +753,7 @@
 		{
 			"id": "8fb7da87-f78b-9bd8-4aea-576c2d0487c5",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/users/{{user_id}}/?access_token={{token}}",
+			"url": "{{url}}/v2/users/{{user_id}}/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -773,7 +773,7 @@
 		{
 			"id": "9172e99c-310b-54ff-4d10-9442d58f063b",
 			"headers": "CB-Version: {{date}}\nContent-Type: application/json\n",
-			"url": "{{url}}/orders/{{order_id}}/refund/?access_token={{token}}",
+			"url": "{{url}}/v2/orders/{{order_id}}/refund/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "POST",
@@ -794,7 +794,7 @@
 		{
 			"id": "91ae58f7-ec36-5bad-f352-1274e8c90171",
 			"headers": "CB-Version: {{date}}\nContent-Type: application/json\n",
-			"url": "{{url}}/user/?access_token={{token}}",
+			"url": "{{url}}/v2/user/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "PUT",
@@ -815,7 +815,7 @@
 		{
 			"id": "9510b169-1a20-2a8f-6aa2-29510424aad6",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/accounts/?access_token={{token}}&order=asc",
+			"url": "{{url}}/v2/accounts/?access_token={{token}}&order=asc",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -835,7 +835,7 @@
 		{
 			"id": "9b3f0084-7b6e-1d68-34a5-c4fde1315f3f",
 			"headers": "CB-Version: {{date}}\nContent-Type: application/json\n",
-			"url": "{{url}}/accounts/{{wallet_main}}/transactions/?access_token={{token}}",
+			"url": "{{url}}/v2/accounts/{{wallet_main}}/transactions/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "POST",
@@ -856,7 +856,7 @@
 		{
 			"id": "9c6fbc13-2d33-91a8-929f-a264474e2431",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/accounts/{{wallet_main}}/sells/{{sell_id}}/commit/?access_token={{token}}",
+			"url": "{{url}}/v2/accounts/{{wallet_main}}/sells/{{sell_id}}/commit/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "POST",
@@ -876,7 +876,7 @@
 		{
 			"id": "9ecbf890-598f-d9d4-a9bb-4c475f343554",
 			"headers": "CB-Version: {{date}}\nContent-Type: application/json\n",
-			"url": "{{url}}/orders/?access_token={{token}}",
+			"url": "{{url}}/v2/orders/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "POST",
@@ -897,7 +897,7 @@
 		{
 			"id": "a38f64eb-cbf9-d6c1-450b-e7cf47f0c8e6",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/accounts/{{wallet_main}}/transactions/?access_token={{token}}",
+			"url": "{{url}}/v2/accounts/{{wallet_main}}/transactions/?access_token={{token}}",
 			"pathVariables": {},
 			"preRequestScript": "",
 			"method": "GET",
@@ -918,7 +918,7 @@
 		{
 			"id": "a4d95241-4b48-1f91-4b04-5c67f2e515d1",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/accounts/{{wallet_main}}/?access_token={{token}}",
+			"url": "{{url}}/v2/accounts/{{wallet_main}}/?access_token={{token}}",
 			"pathVariables": {},
 			"preRequestScript": "",
 			"method": "DELETE",
@@ -940,7 +940,7 @@
 		{
 			"id": "a79a265b-8b36-9fc1-913a-6edfc5c63d94",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/prices/buy/?access_token={{token}}",
+			"url": "{{url}}/v2/prices/buy/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -959,7 +959,7 @@
 		{
 			"id": "a79e3d7a-f489-99c7-c0c8-b03ee3ad52d2",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/currencies/?access_token={{token}}&order=asc",
+			"url": "{{url}}/v2/currencies/?access_token={{token}}&order=asc",
 			"pathVariables": {},
 			"preRequestScript": "",
 			"method": "GET",
@@ -980,7 +980,7 @@
 		{
 			"id": "a9bc85dc-db3a-33bf-b262-805866e36ad9",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/accounts/{{wallet_id}}/primary/?access_token={{token}}",
+			"url": "{{url}}/v2/accounts/{{wallet_id}}/primary/?access_token={{token}}",
 			"pathVariables": {},
 			"preRequestScript": "",
 			"method": "POST",
@@ -1002,7 +1002,7 @@
 		{
 			"id": "c0c603b8-1e19-c5c4-9a7f-52fa2deda0aa",
 			"headers": "CB-Version: {{date}}\nContent-Type: application/json\n",
-			"url": "{{url}}/accounts/{{wallet_main}}/?access_token={{token}}",
+			"url": "{{url}}/v2/accounts/{{wallet_main}}/?access_token={{token}}",
 			"pathVariables": {},
 			"preRequestScript": "",
 			"method": "PUT",
@@ -1024,7 +1024,7 @@
 		{
 			"id": "c2a90a7d-e544-1e1a-4a3f-295a7519321e",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/exchange-rates/?access_token={{token}}&order=asc",
+			"url": "{{url}}/v2/exchange-rates/?access_token={{token}}&order=asc",
 			"pathVariables": {},
 			"preRequestScript": "",
 			"method": "GET",
@@ -1045,7 +1045,7 @@
 		{
 			"id": "c4995023-3720-85cc-54d2-030b681017b6",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/accounts/{{wallet_main}}/transactions/{tx_id}}/complete/?access_token={{token}}",
+			"url": "{{url}}/v2/accounts/{{wallet_main}}/transactions/{tx_id}}/complete/?access_token={{token}}",
 			"pathVariables": {},
 			"preRequestScript": "",
 			"method": "POST",
@@ -1066,7 +1066,7 @@
 		{
 			"id": "c8a1412e-ccf6-67a2-0bff-fe15ee521922",
 			"headers": "CB-Version: {{date}}\nContent-Type: application/json\n",
-			"url": "{{url}}/accounts/{{wallet_main}}/transactions/?access_token={{token}}",
+			"url": "{{url}}/v2/accounts/{{wallet_main}}/transactions/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "POST",
@@ -1087,7 +1087,7 @@
 		{
 			"id": "dd1b7163-075e-fd96-fc7a-1e2f17a8227e",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/accounts/{{wallet_main}}/?access_token={{token}}",
+			"url": "{{url}}/v2/accounts/{{wallet_main}}/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -1107,7 +1107,7 @@
 		{
 			"id": "e08799fe-dce9-cc7b-bba0-97015c0cfeb3",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/accounts/{{wallet_main}}/sells/?access_token={{token}}",
+			"url": "{{url}}/v2/accounts/{{wallet_main}}/sells/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -1127,7 +1127,7 @@
 		{
 			"id": "eb9fdd36-1206-9f70-2715-b4e3d64a818f",
 			"headers": "CB-Version: {{date}}\nContent-Type: application/json\n",
-			"url": "{{url}}/accounts/{{wallet_main}}/sells/?access_token={{token}}",
+			"url": "{{url}}/v2/accounts/{{wallet_main}}/sells/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "POST",
@@ -1148,7 +1148,7 @@
 		{
 			"id": "ed1758e1-f7e8-0e23-e93e-3087042d26b0",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/accounts/primary/?access_token={{token}}",
+			"url": "{{url}}/v2/accounts/primary/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -1168,7 +1168,7 @@
 		{
 			"id": "faa91486-ba8a-e8f1-30df-39e85f223c8a",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/prices/spot/?access_token={{token}}",
+			"url": "{{url}}/v2/prices/spot/?access_token={{token}}",
 			"pathVariables": {},
 			"preRequestScript": "",
 			"method": "GET",
@@ -1189,7 +1189,7 @@
 		{
 			"id": "fc496c09-2746-21cd-9ee4-a744a2ee4448",
 			"headers": "CB-Version: {{date}}\n",
-			"url": "{{url}}/orders/{{order_id}}/?access_token={{token}}",
+			"url": "{{url}}/v2/orders/{{order_id}}/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
