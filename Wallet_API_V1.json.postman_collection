@@ -158,7 +158,7 @@
 		{
 			"id": "333a0e11-bf66-25b2-1324-1bd7c5a658fc",
 			"headers": "",
-			"url": "{{url}}/v1/v2/orders?access_token={{token}}&account_id={{account_id}}",
+			"url": "{{url}}/v1/orders?access_token={{token}}&account_id={{account_id}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -178,7 +178,7 @@
 		{
 			"id": "3a03df62-d811-bac2-86cd-2d7738388492",
 			"headers": "",
-			"url": "{{url}}/v1/v2/accounts/?access_token={{token}}",
+			"url": "{{url}}/v1/accounts/?access_token={{token}}",
 			"pathVariables": {},
 			"preRequestScript": "",
 			"method": "GET",
@@ -199,7 +199,7 @@
 		{
 			"id": "585ee110-2d2f-821d-e2e4-f9c3e235f57c",
 			"headers": "",
-			"url": "{{url}}/v1/v2/recurring_payments/{{payment_id}}/?access_token={{token}}",
+			"url": "{{url}}/v1/recurring_payments/{{payment_id}}/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -441,7 +441,7 @@
 		{
 			"id": "fe9405fc-c052-10e1-fb97-698640cb7642",
 			"headers": "",
-			"url": "{{url}}/v1/v2/tokens/redeem/?access_token={{token}}",
+			"url": "{{url}}/v1/tokens/redeem/?access_token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "POST",
