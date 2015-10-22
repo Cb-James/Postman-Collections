@@ -1,0 +1,149 @@
+{
+  "id": "3d717f58-d8b7-4baa-3aab-0c4bda5e8bc5",
+  "name": "OAuth",
+  "description": "",
+  "order": [
+    "6c6ec816-1b48-9ffc-adc9-ce61637d267d",
+    "789e2b4d-ca45-d38f-3917-0c164529f0f1",
+    "2a389504-2b55-0585-c912-53407cd1deb5"
+  ],
+  "folders": [],
+  "timestamp": 1443532567886,
+  "owner": "47477",
+  "remoteLink": "",
+  "public": false,
+  "requests": [
+    {
+      "id": "2a389504-2b55-0585-c912-53407cd1deb5",
+      "headers": "",
+      "url": "{{url}}/oauth/token",
+      "preRequestScript": "",
+      "pathVariables": {},
+      "method": "POST",
+      "data": [
+        {
+          "key": "grant_type",
+          "value": "authorization_code",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "code",
+          "value": "",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "redirect_uri",
+          "value": "",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "client_id",
+          "value": "{{client_id}}",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "client_secret",
+          "value": "{{client_secret}}",
+          "type": "text",
+          "enabled": true
+        }
+      ],
+      "dataMode": "params",
+      "version": 2,
+      "tests": "",
+      "currentHelper": "normal",
+      "helperAttributes": {},
+      "time": 1443838938068,
+      "name": "Exchange code for an access token",
+      "description": "https://developers.coinbase.com/docs/wallet/coinbase-connect/access-and-refresh-tokens",
+      "collectionId": "3d717f58-d8b7-4baa-3aab-0c4bda5e8bc5",
+      "responses": []
+    },
+    {
+      "id": "6c6ec816-1b48-9ffc-adc9-ce61637d267d",
+      "headers": "",
+      "url": "{{url}}/oauth/token",
+      "preRequestScript": "",
+      "pathVariables": {},
+      "method": "POST",
+      "data": [
+        {
+          "key": "grant_type",
+          "value": "refresh_token",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "redirect_uri",
+          "value": "https://new-node-jjmardlin.c9.io/",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "client_id",
+          "value": "{{client_id}}",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "client_secret",
+          "value": "{{client_secret}}",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "refresh_token",
+          "value": "cf92ccf13ea9eaec4bfb242ccc50268593d198107c72bb93523b9e0c48a3f571",
+          "type": "text",
+          "enabled": true
+        }
+      ],
+      "dataMode": "params",
+      "version": 2,
+      "tests": "",
+      "currentHelper": "normal",
+      "helperAttributes": {},
+      "time": 1443838892164,
+      "name": "Request a new access token",
+      "description": "https://developers.coinbase.com/docs/wallet/coinbase-connect/access-and-refresh-tokens",
+      "collectionId": "3d717f58-d8b7-4baa-3aab-0c4bda5e8bc5",
+      "responses": []
+    },
+    {
+      "id": "789e2b4d-ca45-d38f-3917-0c164529f0f1",
+      "headers": "",
+      "url": "{{url}}/oauth/revoke",
+      "preRequestScript": "",
+      "pathVariables": {},
+      "method": "POST",
+      "data": [
+        {
+          "key": "token",
+          "value": "{{token}}",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "access_token",
+          "value": "{{token}}",
+          "type": "text",
+          "enabled": true
+        }
+      ],
+      "dataMode": "params",
+      "version": 2,
+      "tests": "",
+      "currentHelper": "normal",
+      "helperAttributes": {},
+      "time": 1443987129667,
+      "name": "Revoke an  access token",
+      "description": "https://developers.coinbase.com/docs/wallet/coinbase-connect/access-and-refresh-tokens",
+      "collectionId": "3d717f58-d8b7-4baa-3aab-0c4bda5e8bc5",
+      "responses": []
+    }
+  ]
+}
